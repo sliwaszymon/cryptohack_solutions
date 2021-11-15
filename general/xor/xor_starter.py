@@ -5,11 +5,8 @@ from pwnlib.util.fiddling import xor
 
 text = 'label'
 integer = int(13)
-letters = [ord(x) for x in text]
-new_letters = []
-for x in letters: 
-    new_letters.append(str(xor(x, integer)).replace("b'","").replace("'",""))
+letters = [str(xor(ord(x), integer)).replace("b'","").replace("'","") for x in text]
 
-print(''.join(new_letters))
+print(''.join(letters))
 
 # flag: crypto{aloha}
