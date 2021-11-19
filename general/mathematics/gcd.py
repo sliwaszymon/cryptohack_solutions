@@ -1,3 +1,4 @@
+# i'm not using Euclid's Algorithm!!!
 def gcd(a, b):
     a_divisors = []
     for x in range(1, a+1, 1):
