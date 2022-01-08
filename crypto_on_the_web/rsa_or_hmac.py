@@ -6,4 +6,4 @@ encoded = jwt.encode({'username': 'szymon', 'admin': True}, PUBLIC_KEY, algorith
 print(encoded)
 
 # b'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InN6eW1vbiIsImFkbWluIjp0cnVlfQ.070P752oZJinxajh0rP5SNWx1fy4Oa6TGW5ORWZ3Ndw'
-# crypto{Doom_Principle_Strikes_Again}
+# flag: crypto{Doom_Principle_Strikes_Again}
